@@ -1,0 +1,155 @@
+body{
+    background-color: black;
+}
+h1{
+    color: aqua;
+}
+
+img{
+    float: right;
+    height: 500px;
+    width: 300px;
+}
+.img2{
+    float: right;
+    height: 450px;
+    width: 200px;
+
+}
+.post img {
+    display: block;
+    width: 100%;
+  }
+  .post .user-pics img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0.5rem 1rem;
+    float: left;
+  }
+  .post {
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    font-size: 15px;
+    width: 100%;
+    line-height: 1.75rem;
+    padding-top: 0.75rem;
+    border-bottom: 1px solid rgb(95, 95, 95);
+    float: inline-start;
+  }
+  .tweets:hover {
+    background: rgb(112, 113, 114);
+  }
+  .full-name:hover {
+    text-decoration: underline;
+  }
+  .user-content img {
+    border-radius: 20px;
+  }
+  .user-content {
+    font-family: "Roboto";
+    padding-right: 1rem;
+    color: rgb(209, 209, 209);
+    font-weight: 800;
+    line-height: 2;
+  }
+  .user-content a {
+    color: rgb(0, 129, 28);
+  }
+  
+  .user-content-box {
+    display: flex;
+    flex-flow: column nowrap;
+    color: rgb(255, 255, 255);
+  }
+  
+  .user-content-box .user-names {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .user-names .full-name {
+    padding-right: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(253, 253, 253);
+  }
+  .user-names .user-name {
+    padding-right: 10px;
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: rgb(101, 119, 134);
+  }
+  .time {
+    color: rgb(101, 119, 134);
+  }
+  .user-names i {
+    padding-top: 0.6rem;
+    margin-left: 50%;
+    color: rgb(101, 119, 134);
+  
+  }
+  .content-icons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 4rem 1rem 0;
+  }
+  
+  .content-icons i {
+    color: rgb(101, 119, 134);
+    font-size: 1rem;
+    cursor: pointer;
+    
+  }
+  .content-icons i:last-child {
+    font-size: 14px;
+  }
+  
+  .content-icons .blue:hover {
+    color: rgba(29, 161,242,1.00);
+  }
+  .content-icons .green:hover {
+    color: rgb(23 191 99);
+  }
+  .content-icons .red:hover {
+    color: rgb(224, 36, 94);
+  }
+  .content-icons .blue:hover {
+    color: rgba(29, 161,242,1.00);
+  }
+  h2{
+    background-color: aquamarine;
+    color: azure;
+  }
+header h2{
+    margin-bottom: 20px;
+}
+.container{
+    max-width: 400px;
+    margin: auto;
+    padding: 25px;
+    color: aliceblue;
+    float: inline-start;
+}
+header .container{
+    margin-left: 30px;
+}
+.social{
+    color:azure;
+    background-color: aqua;
+    block-size: 20px;
+    
+}
+.buttons h3{
+    float: inline-start;
+    color: chartreuse;
+    size: 55px;
+}
+button{
+    float: inline-start;
+    background-color: rgb(4, 226, 255);
+}
+  
